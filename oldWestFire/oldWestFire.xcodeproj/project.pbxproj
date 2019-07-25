@@ -13,8 +13,9 @@
 		701733D522E931A0009E83B5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701733D422E931A0009E83B5 /* GameScene.swift */; };
 		701733D722E931A0009E83B5 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701733D622E931A0009E83B5 /* GameViewController.swift */; };
 		701733DA22E931A0009E83B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701733D822E931A0009E83B5 /* Main.storyboard */; };
-		701733DC22E931A0009E83B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701733DB22E931A0009E83B5 /* Assets.xcassets */; };
 		701733DF22E931A0009E83B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701733DD22E931A0009E83B5 /* LaunchScreen.storyboard */; };
+		70D4870322E94E2A0009C824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70D4870222E94E2A0009C824 /* Assets.xcassets */; };
+		70ED5DF622E96CCD003A9AA1 /* Gunfire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70ED5DF522E96CCD003A9AA1 /* Gunfire.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,10 @@
 		701733D422E931A0009E83B5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		701733D622E931A0009E83B5 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		701733D922E931A0009E83B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		701733DB22E931A0009E83B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		701733DE22E931A0009E83B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		701733E022E931A0009E83B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70D4870222E94E2A0009C824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70ED5DF522E96CCD003A9AA1 /* Gunfire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Gunfire.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +67,9 @@
 				701733D222E931A0009E83B5 /* Actions.sks */,
 				701733D422E931A0009E83B5 /* GameScene.swift */,
 				701733D622E931A0009E83B5 /* GameViewController.swift */,
+				70ED5DF522E96CCD003A9AA1 /* Gunfire.mp3 */,
 				701733D822E931A0009E83B5 /* Main.storyboard */,
-				701733DB22E931A0009E83B5 /* Assets.xcassets */,
+				70D4870222E94E2A0009C824 /* Assets.xcassets */,
 				701733DD22E931A0009E83B5 /* LaunchScreen.storyboard */,
 				701733E022E931A0009E83B5 /* Info.plist */,
 			);
@@ -132,10 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				701733DA22E931A0009E83B5 /* Main.storyboard in Resources */,
+				70ED5DF622E96CCD003A9AA1 /* Gunfire.mp3 in Resources */,
 				701733D122E931A0009E83B5 /* GameScene.sks in Resources */,
-				701733DC22E931A0009E83B5 /* Assets.xcassets in Resources */,
 				701733DF22E931A0009E83B5 /* LaunchScreen.storyboard in Resources */,
 				701733D322E931A0009E83B5 /* Actions.sks in Resources */,
+				70D4870322E94E2A0009C824 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
